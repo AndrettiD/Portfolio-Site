@@ -8,9 +8,13 @@
 }
 
 .navbar{
+    text-align: center;
     display: flex;
     margin-top: 10px;
+    padding: 10px;
     font-size: 25px;
+    justify-content: center
+
 }
 
 .pgeName{
@@ -24,7 +28,7 @@
 }
 
 img {
-  width: 45%;
-  margin-left: 5em;
+  width: 75%;
   margin-top: 40px;
+
 }
