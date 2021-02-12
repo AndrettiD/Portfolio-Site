@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: #e1d89f;
+}
+.navbar {
+    text-align: center;
+}
+
+
+.navbar > a {
+    text-decoration: none;
+    color: #2c061f;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 7%;
+}
+
+.navbar > img {
+    width: 10em;
+    margin-top: 5%;
+}
