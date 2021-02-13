@@ -4,22 +4,12 @@
 }
 
 body {
-    background-color: #e1d89f;
+    
 }
-.navbar {
-    text-align: center;
-}
-
-
-.navbar > a {
-    text-decoration: none;
-    color: #2c061f;
-    font-size: 19px;
-    text-align: center;
-    margin-left: 7%;
+img {
+    width: 47%;
+    margin-top: 6%;
+    margin-left: 3%;
 }
 
-.navbar > img {
-    width: 10em;
-    margin-top: 5%;
-}
+

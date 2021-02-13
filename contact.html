@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="contact.css">
 
@@ -11,16 +13,32 @@
 </head>
  <body>
     <div class="container">
-        
-            <div class="navbar">
-                <div class="home"> <a href="index.html" >Home</a> </div>
-                    <div class="proj"> <a href="projects.html" >Projects</a> </div>
-                        <div class="logo"> <img src="" logo alt=""> </div>
-                            <div class="pgeName"> <a href="contact.html" >Contact</a> </div>
-                                <div class="abt"> <a href="about.html" >About</a> </div>
-            </div>
-        
+
+        <div class="adLogo">
+          <a href="index.html">
+           <img src="./img/ad-logo.png" alt="Andretti's Logo">
+          </a>
+        </div>
+         <!-- Nave Bar -->
+
+          <ul class="nav nav-tabs  justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link "  href="index.html" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html" >Projects</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html" >Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="about.html" >About</a> 
+            </li>
+            </li>
+          </ul>
+          <!-- contact info -->
           <div class="contactInfo">
+
              <div class="email">
                 <a href=mailto:<andrettiduv@gmail.com> 
                     <img src="./img/mail.svg" />
@@ -45,6 +63,12 @@
             <!-- <ion-icon name="logo-google"></ion-icon> -->
             <!-- <ion-icon name="logo-github"></ion-icon> -->
           </div>
+
+          <footer>
+            <div class="foot">
+              <h5>Andretti Duvenhage</h6>
+            </div>
+          </footer>
     </div>
 
  </body>
