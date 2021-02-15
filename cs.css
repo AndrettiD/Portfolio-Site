@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(192, 209, 242);
+}
+/* header {
+    background-image: url(./img/);
+    background-repeat: no-repeat;
+    } */
+    
+
+    img {
+        width: 68%;
+        margin-top: 6%;
+        margin-left: 3%;
+    }
+    
+    .coming {
+        color:rgb(3, 10, 108);
+    }
+
+    h3 {
+        margin-left: 7
+        0px;
+    }
+
+    .linkedIn {
+        width: 10%;
+    }
