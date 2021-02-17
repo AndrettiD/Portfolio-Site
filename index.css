@@ -21,7 +21,6 @@ body{
 .nav-link {
     color:#99b7d3;
     font-weight: bold;
-
 }
 /* .nav-item {
     color: #84a5c4;
@@ -60,11 +59,13 @@ body{
 .ProjCards{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 .card {
     box-shadow: 0 4px 8px 0 rgb(106, 128, 160), 0 8px 10px 0 rgb(74, 93, 108);
   text-align: center;
+  margin-top: 3%;
 }
 .card-title{
     color:#f0eced;
@@ -93,7 +94,7 @@ body{
 }
 
 .contactMe {
-    width: 5%;
+    width: 10%;
     margin-left: 7%;
     margin-bottom: 5%;
     margin-top: 2%;
