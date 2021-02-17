@@ -1,14 +1,15 @@
- *{
+ /* *{
     border: 1px solid orange;
-}  
+}   */
+
 body{
     background-color: rgb(48, 75, 99);
-    
 }
-h4  {
-    width: 55%;
-    color: #ded8d9;
-}
+/* .head {
+    position:fixed;
+    margin-top: 15px;
+    margin-left: 60%;
+} */
 
 .adLogo> img {
     width: 60%;
@@ -30,21 +31,22 @@ h4  {
     text-decoration: underline;
     width: 80%;
     margin-left: 5%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
+
 .aboutAll {
     color:#f0eced;
     text-decoration: underline;
     padding-bottom: 12px;
     width: 80%;
-    margin-left: 13%;
+    margin-left: 14%;
     text-decoration: none;
     text-align: center;
 }
 .projAll {
-    margin-top: 120px;
+    margin-top: 30px;
     margin-bottom:35px;
-    color: #647c93;
+    color: #6c87a1;
  }
 
 .ProjText {
@@ -58,8 +60,12 @@ h4  {
 .ProjCards{
     display: flex;
     justify-content: space-evenly;
+    
 }
-
+.card {
+    box-shadow: 0 4px 8px 0 rgb(106, 128, 160), 0 8px 10px 0 rgb(74, 93, 108);
+  text-align: center;
+}
 .card-title{
     color:#f0eced;
 }
@@ -67,10 +73,39 @@ h4  {
     color:#f0eced;
 }
 .card-body{
-     background-color: #21405c;
+     background-color: #6c87a1;
 }
 
 .githubLogo > img{
     width: 17%;
     margin-left: 15px;
+}
+.contactAll {
+    
+}
+
+.contactText {
+    color:#f0eced;
+    text-decoration: underline;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+.contactMe {
+    width: 5%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    
+}
+
+.headb {
+    margin-right: 8%;
+}
+.foot {
+    background-color:#6c87a1;
+    border-top: 3px solid #f0eced ;
+    height: 3em;
+    width: 100%;
 }
